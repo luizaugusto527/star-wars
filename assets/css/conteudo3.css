@@ -1,0 +1,57 @@
+.conteudo3{
+    background-color: #121212;
+    height: auto;
+    
+}
+
+.address,.email,.phone{
+    width: 100%;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-bottom: solid .4rem #F9D71C;
+    border-radius: .5rem;
+    margin-top: 5rem;
+   
+}
+.address i,.email i,.phone i{
+    color: #F9D71C;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.address p ,.email p,.phone p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #25282B;
+}
+.risco-conteudo3{
+    width: 4.2rem;
+    background-color: #F9D71C;
+    height: .3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.conteudo3 > .address>.paragrafo-address ,.conteudo3 > .phone>.paragrafo-address{
+    color: #B1B5A8;
+}
+.conteudo3 > .email>.paragrafo-address{
+    color:  #F9D71C;
+    text-transform: lowercase;
+}
+
+@media (min-width:900px){
+    .address,.email,.phone{
+        width: 30%;
+        height: 30rem;
+        max-width: 31rem;
+    }
+    .conteudo3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

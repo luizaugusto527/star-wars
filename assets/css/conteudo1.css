@@ -1,0 +1,39 @@
+.conteudo1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000 0%, #323232 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  
+}
+
+.conteudo1 > .texto-conteudo{
+    margin-bottom: 5rem;
+}
+
+.conteudo1 > .texto-conteudo > h2{
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.conteudo1 > .texto-conteudo > p{
+    color:#82888A;
+    font-size:1rem;
+    text-align: center;
+    padding: 0 3rem;
+    max-width: 42rem;
+    
+}
+.conteudo1 > .nave{
+    width: 100%;
+    text-align: center;
+
+}
+.conteudo1 > .nave > img{
+    width: 90%;
+    max-width: 780px;
+}
